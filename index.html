@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ney Year</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <audio src="music.mp3" controls autoplay="autoplay" loop="true" hidden="false"> </audio>
+    <div class="videophone">
+        <div class="videophone-block">
+            <video class="videophone-media" src="video.mp4" autoplay muted loop></video>
+        </div>
+    </div>
+    <div id="garland" class="garland_1">
+        <div id="nums_1">1</div>
+     </div>
+     <div class="content">
+        <div class="column column-left">
+            <h1 class="column-title">Керування гирляндою</h1>
+            <img src="img/tree.png" alt="image" class="tree">
+            <div class="speed">
+                <p class="speed-title">Швидкість</p>
+                <label>
+                    <input type="range" class="speed-garland" min="1" max="3">
+                </label>
+            </div>
+            <div class="regime">
+                <p class="regime-title">Режим</p>
+                <label>
+                    <input type="range" class="regime-garland" min="1" max="2">
+                </label>
+            </div>
+        </div>
+        <div class="column column-right">
+            <h1 class="column-title">Аудіо та відео</h1>
+            <iframe width="400" height="300" src="https://www.youtube.com/embed/vEcIvgHLOq0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="column-video" width="400" height="300" src="https://www.youtube.com/embed/_7xWNnClI2o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+     </div>
+    
+        <script src="js/main.js"></script>
+</body>
+</html>

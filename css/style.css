@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #333333;
+}
+.musicphone {
+  
+}
+.videophone {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.videophone-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.videophone-block:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: rgba(0, 0, 0, .5);
+}
+.videophone-media {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+#garland {
+    position:absolute;
+    top:0;
+    left:0;
+    background-image:url('../img/garland7.png');
+    height:35px;
+    width:100%;
+    overflow:hidden;
+    z-index:99
+}  
+#nums_1 {
+    padding:100px
+}  
+.garland_1 {
+    background-position: 0 0
+}  
+.garland_2 {
+    background-position: 0 -35px
+}  
+.garland_3 {
+    background-position: 0 -70px
+}  
+.garland_4 {
+    background-position: 0 -105px
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 36px;
+    left:0;
+    overflow:hidden;
+    z-index:99;
+    padding: 50px;
+}
+.column {
+    background-color: rgba(0, 0, 0, .4);
+    border: #777777 1px solid;
+    z-index: 99;
+    border-radius: 10px; 
+    text-align: center;
+}
+.column-left {
+    width: 420px;
+    
+}
+.column-right {
+    width: 480px;
+    
+}
+.column-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #777777;
+}
+.column-video {]
+    widows: 560px;
+     height: 315;
+}
+.tree {
+    width: 300px;;
+}
+.speed, .regime {
+    display: inline-block;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.speed-title, .regime-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #777777;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    
+}
+.speed-garland, .regime-garland {
+    width: 250px;
+}
